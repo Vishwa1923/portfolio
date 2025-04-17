@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Vishwajeet Kulkarni</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Contact</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="experience.html">Experience</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out via the form below or connect with me on LinkedIn.</p>
+
+      <form action="https://formsubmit.co/vishwajeetkulkarni23@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value="contact.html?success=true" />
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <h3>Other Ways to Connect</h3>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:vishwajeetkulkarni23@gmail.com">vishwajeetkulkarni23@gmail.com</a></li>
+          <li><strong>LinkedIn:</strong> <a href=https://www.linkedin.com target="_blank">https://www.linkedin.com/in/vishwajeet-kulkarni-a34712165</a></li>
+          <li><strong>Download Resume:</strong> 
+            <a href="assets/Vishwajeet_Kulkarni_Resume.pdf" download>
+              Click to Download PDF
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Vishwajeet Kulkarni</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

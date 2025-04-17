@@ -1,0 +1,181 @@
+/* === GENERAL RESET === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* === HEADER & NAVIGATION === */
+  header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  nav a:hover,
+  nav a.active-nav {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #ff6600;
+  }
+  
+  /* === MAIN SECTION === */
+  main {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+    background: #fff;
+  }
+  
+  /* === FORM === */
+  form {
+    margin-top: 1rem;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background-color: #007acc;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  form button:hover {
+    background-color: #005fa3;
+  }
+  
+  /* === CONTACT INFO BLOCK === */
+  .contact-info {
+    margin-top: 2rem;
+    background: #f9f9f9;
+    padding: 1rem;
+    border-left: 4px solid #007acc;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .contact-info li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-info a[href$=".pdf"] {
+    display: inline-block;
+    background-color: #007acc;
+    color: white;
+    padding: 8px 12px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .contact-info a[href$=".pdf"]:hover {
+    background-color: #005fa3;
+  }
+  
+  /* === FOOTER === */
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  /* === DARK MODE SUPPORT === */
+  body.dark {
+    background-color: #121212;
+    color: #f0f0f0;
+  }
+  
+  body.dark header,
+  body.dark footer {
+    background-color: #222;
+  }
+  
+  body.dark nav a {
+    color: #ccc;
+  }
+  
+  body.dark main {
+    background-color: #1e1e1e;
+  }
+  
+  body.dark .contact-info {
+    background: #2a2a2a;
+    border-left-color: #55acee;
+  }
+  
+  /* === DARK MODE BUTTON === */
+  .dark-toggle {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background: #444;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  
+  /* === BACK TO TOP BUTTON === */
+  #backToTop {
+    position: fixed;
+    bottom: 70px;
+    right: 15px;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    background: #0077cc;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    display: none;
+  }
+  .profile-img {
+    max-width: 150px;
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
